@@ -1,0 +1,19 @@
+{
+  "name": "jwt_webdev",
+  "version": "1.0.0",
+  "description": "webdev",
+  "main": "server.js",
+  "scripts": {
+    "test": "server.js",
+    "start": "nodemon server.js"
+  },
+  "author": "Anmol",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.7"
+  }
+}
